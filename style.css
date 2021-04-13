@@ -504,13 +504,13 @@ span {
 
 @media only screen and (max-width: 900px) {
   .main__whoarewe {
-    padding: 1.44rem;
+    padding: 1.728rem;
   }
 }
 
 @media only screen and (max-width: 600px) {
   .main__whoarewe {
-    padding: 1.2rem;
+    padding: 2.074rem;
   }
 }
 
@@ -528,7 +528,7 @@ span {
 }
 
 .main__whoarewe__container h1 {
-  font-size: 5.16rem;
+  font-size: 4.3rem;
   color: #062b66;
   line-height: 1.2;
   text-align: center;
@@ -612,7 +612,7 @@ span {
 }
 
 .main .row .col-sm-4 .card-text-NP {
-  padding: 1.44rem;
+  padding: 2.074rem;
   background-color: #fffef7;
   -webkit-box-flex: 0;
       -ms-flex: 0 0 50%;
@@ -628,16 +628,17 @@ span {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  overflow: hidden;
 }
 
 .main .row .col-sm-4 h4 {
-  font-size: 2.488rem;
+  font-size: 2.986rem;
   padding-bottom: 1rem;
   color: #062b66;
 }
 
 .main .row .col-sm-4 p {
-  font-size: 1.728rem;
+  font-size: 2.074rem;
   color: #062b66;
 }
 
@@ -667,13 +668,13 @@ span {
 
 @media only screen and (max-width: 900px) {
   .main__partners {
-    padding: 1.44rem;
+    padding: 2.488rem;
   }
 }
 
 @media only screen and (max-width: 600px) {
   .main__partners {
-    padding: 1.2rem;
+    padding: 2.074rem;
   }
 }
 
@@ -685,7 +686,7 @@ span {
 }
 
 .main__partners__container__osmep {
-  margin-top: 3.583rem;
+  margin-top: 5.16rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -760,7 +761,7 @@ span {
 
 .main__partners__container__osmep__right h4 {
   color: #0078c1;
-  font-size: 2.986rem;
+  font-size: 4.3rem;
   max-width: 50rem;
   line-height: 1.2;
 }
@@ -775,7 +776,7 @@ span {
 .main__partners__container__osmep__right p {
   margin-top: 2.074rem;
   color: rgba(6, 43, 102, 0.8);
-  font-size: 2.074rem;
+  font-size: 2.488rem;
   max-width: 50rem;
 }
 
@@ -1279,10 +1280,10 @@ span {
 }
 
 .menu-wrap .menu > div {
-  background: rgba(6, 43, 102, 0.7);
+  background: rgba(6, 43, 102, 0.9);
   border-radius: 50%;
-  width: 200vw;
-  height: 200vw;
+  width: 300vw;
+  height: 300vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1333,11 +1334,30 @@ span {
   padding: 1rem;
 }
 
+.menu-wrap .menu > div > div > ul > li:hover {
+  list-style: none;
+  color: #f5f4ed;
+  font-size: 2.986rem;
+  padding: 1rem;
+}
+
 .menu-wrap .menu > div > div > ul > li > a {
   color: inherit;
   text-decoration: none;
   -webkit-transition: color 0.4s ease;
   transition: color 0.4s ease;
+}
+
+.menu-wrap .menu > div > div > ul > li > a:hover {
+  color: rgba(6, 43, 102, 0.4);
+}
+
+.menu-wrap .menu > div > div > ul > li:last-child {
+  margin-top: 10vh;
+}
+
+.menu-wrap .menu > div > div > ul > li:last-child img {
+  height: 15rem;
 }
 
 body {
@@ -1482,13 +1502,13 @@ body {
 }
 
 .header-hide {
-  padding: 1rem;
+  padding: 0.5rem;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   background-color: rgba(245, 244, 237, 0.8);
   -webkit-box-shadow: 0 0 20px rgba(6, 43, 102, 0.2);
           box-shadow: 0 0 20px rgba(6, 43, 102, 0.2);
-  border: 1px solid rgba(6, 43, 102, 0.3);
+  border-bottom: 1px solid rgba(6, 43, 102, 0.3);
   -webkit-backdrop-filter: blur(8px);
           backdrop-filter: blur(8px);
 }
@@ -1504,7 +1524,7 @@ body {
 .header-hide img {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  height: 4.3rem;
+  height: 6.192rem;
 }
 
 .footer {
