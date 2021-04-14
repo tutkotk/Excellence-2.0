@@ -99,7 +99,7 @@ function formatMessage(message) {
   title = title.replace(/▪/g, "");
   body = body.replace(/▪/g, "");
 
-  var textLengthLimit = 250;
+  var textLengthLimit = 160;
   if (body.length > textLengthLimit) {
     body = body.substring(0, textLengthLimit);
     bodyArray = body.split(" ");
