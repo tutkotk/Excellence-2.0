@@ -1065,7 +1065,7 @@ span {
 }
 
 .main__team {
-  margin-bottom: 2.074rem;
+  margin-bottom: 2.986rem;
 }
 
 .main__team__container h3 {
@@ -1087,6 +1087,7 @@ span {
 .main__team__container p {
   color: #3e3e7a;
   font-size: 1.728rem;
+  text-align: center;
 }
 
 .main__team__container img {
@@ -1111,14 +1112,28 @@ span {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 31%;
+          flex: 0 0 31%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 2.986rem;
+  margin-bottom: 4.3rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .main__team__container__top div {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 48%;
+            flex: 0 0 48%;
+  }
 }
 
 .main__team__container__bottom img {
